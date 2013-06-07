@@ -36,7 +36,7 @@ void cloudbox(int x1,int y1,int x2,int y2,int g1,int g2,int g3,int g4){
   gfx_line(x12,y2,x12,y2);
 
   // color center
-  g = (g1+g2+g3+g4)/4 + pow(-1,rand()%2)*(rand()%(abs(x2-x1)%256));
+  g = (g1+g2+g3+g4)/4 + pow(-1,rand()%2)*(rand()%(abs(x2-x1)/2+1));
   if(g>255) g=255;
   if(g<0) g=0;
   gfx_color(g,g,g);
