@@ -1,4 +1,4 @@
-// Benjamin Laws, CSE 21211-04
+// Blaws, CSE 21211-04
 
 #include <math.h>
 #include <stdlib.h>
